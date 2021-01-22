@@ -3,4 +3,4 @@ Beginner iOS project, featuring hamburger menu with animations and responsivenes
 
 ### Recreation of the following animation:
 
-![Alt Text](https://media.giphy.com/media/bb95GYdzNztSrqzd60/giphy.gif)
+![Menu gif](https://media.giphy.com/media/bb95GYdzNztSrqzd60/giphy.gif)

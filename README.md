@@ -6,6 +6,6 @@ Beginner iOS project, featuring hamburger menu with animations and responsivenes
 
 ![Menu res](./02.png)
 
-### Recreation of the following animation:
+### Result:
 
-![Menu gif](https://media.giphy.com/media/bb95GYdzNztSrqzd60/giphy.gif)
+![Menu gif](https://media.giphy.com/media/3OemfwtSWqnoWa08oI/giphy.gif)

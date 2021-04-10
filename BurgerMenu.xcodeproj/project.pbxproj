@@ -13,6 +13,15 @@
 		1F06D229258E6A0C00741634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F06D227258E6A0C00741634 /* Main.storyboard */; };
 		1F06D22B258E6A0D00741634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F06D22A258E6A0D00741634 /* Assets.xcassets */; };
 		1F06D22E258E6A0D00741634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F06D22C258E6A0D00741634 /* LaunchScreen.storyboard */; };
+		1F20A574258EA3C700DFA627 /* BaseReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20A573258EA3C700DFA627 /* BaseReusableView.swift */; };
+		1F20A577258EA40900DFA627 /* MenuToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F20A576258EA40900DFA627 /* MenuToggleView.swift */; };
+		1F20A57B258EA53500DFA627 /* MenuToggleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F20A57A258EA53500DFA627 /* MenuToggleView.xib */; };
+		1F24F5F92591A88400610FE8 /* TransparentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F24F5F82591A88400610FE8 /* TransparentCell.swift */; };
+		1F27A91025918DCC003C9F37 /* BurgerTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F27A90F25918DCC003C9F37 /* BurgerTableHeader.swift */; };
+		1F27A91825918E9D003C9F37 /* BurgerTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F27A91725918E9D003C9F37 /* BurgerTableHeader.xib */; };
+		1F2B39C8258FFA180010391F /* BurgerTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B39C7258FFA180010391F /* BurgerTableController.swift */; };
+		1F2B39CD258FFAC50010391F /* BurgerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2B39CB258FFAC50010391F /* BurgerTableCell.swift */; };
+		1F2B39CE258FFAC50010391F /* BurgerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F2B39CC258FFAC50010391F /* BurgerTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		1F06D22A258E6A0D00741634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F06D22D258E6A0D00741634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F06D22F258E6A0D00741634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F20A573258EA3C700DFA627 /* BaseReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseReusableView.swift; sourceTree = "<group>"; };
+		1F20A576258EA40900DFA627 /* MenuToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuToggleView.swift; sourceTree = "<group>"; };
+		1F20A57A258EA53500DFA627 /* MenuToggleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuToggleView.xib; sourceTree = "<group>"; };
+		1F24F5F82591A88400610FE8 /* TransparentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentCell.swift; sourceTree = "<group>"; };
+		1F27A90F25918DCC003C9F37 /* BurgerTableHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTableHeader.swift; sourceTree = "<group>"; };
+		1F27A91725918E9D003C9F37 /* BurgerTableHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BurgerTableHeader.xib; sourceTree = "<group>"; };
+		1F2B39C7258FFA180010391F /* BurgerTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTableController.swift; sourceTree = "<group>"; };
+		1F2B39CB258FFAC50010391F /* BurgerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerTableCell.swift; sourceTree = "<group>"; };
+		1F2B39CC258FFAC50010391F /* BurgerTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BurgerTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,72 @@
 		1F06D220258E6A0C00741634 /* BurgerMenu */ = {
 			isa = PBXGroup;
 			children = (
+				1F2B39C2258FF9AF0010391F /* Controllers */,
+				1F06D236258E6A7100741634 /* Views */,
 				1F06D221258E6A0C00741634 /* AppDelegate.swift */,
 				1F06D223258E6A0C00741634 /* SceneDelegate.swift */,
-				1F06D225258E6A0C00741634 /* ViewController.swift */,
 				1F06D227258E6A0C00741634 /* Main.storyboard */,
 				1F06D22A258E6A0D00741634 /* Assets.xcassets */,
 				1F06D22C258E6A0D00741634 /* LaunchScreen.storyboard */,
 				1F06D22F258E6A0D00741634 /* Info.plist */,
 			);
 			path = BurgerMenu;
+			sourceTree = "<group>";
+		};
+		1F06D236258E6A7100741634 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F20A573258EA3C700DFA627 /* BaseReusableView.swift */,
+				1F06D238258E6BB800741634 /* MenuToggleView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F06D238258E6BB800741634 /* MenuToggleView */ = {
+			isa = PBXGroup;
+			children = (
+				1F20A576258EA40900DFA627 /* MenuToggleView.swift */,
+				1F20A57A258EA53500DFA627 /* MenuToggleView.xib */,
+			);
+			path = MenuToggleView;
+			sourceTree = "<group>";
+		};
+		1F27A90E25918CBB003C9F37 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				1F27A90F25918DCC003C9F37 /* BurgerTableHeader.swift */,
+				1F27A91725918E9D003C9F37 /* BurgerTableHeader.xib */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		1F2B39C2258FF9AF0010391F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F06D225258E6A0C00741634 /* ViewController.swift */,
+				1F2B39C3258FF9C70010391F /* BurgerTable */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1F2B39C3258FF9C70010391F /* BurgerTable */ = {
+			isa = PBXGroup;
+			children = (
+				1F2B39C7258FFA180010391F /* BurgerTableController.swift */,
+				1F27A90E25918CBB003C9F37 /* Headers */,
+				1F2B39D1258FFC0A0010391F /* Cells */,
+			);
+			path = BurgerTable;
+			sourceTree = "<group>";
+		};
+		1F2B39D1258FFC0A0010391F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1F2B39CB258FFAC50010391F /* BurgerTableCell.swift */,
+				1F2B39CC258FFAC50010391F /* BurgerTableCell.xib */,
+				1F24F5F82591A88400610FE8 /* TransparentCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +199,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F20A57B258EA53500DFA627 /* MenuToggleView.xib in Resources */,
 				1F06D22E258E6A0D00741634 /* LaunchScreen.storyboard in Resources */,
+				1F2B39CE258FFAC50010391F /* BurgerTableCell.xib in Resources */,
 				1F06D22B258E6A0D00741634 /* Assets.xcassets in Resources */,
 				1F06D229258E6A0C00741634 /* Main.storyboard in Resources */,
+				1F27A91825918E9D003C9F37 /* BurgerTableHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,9 +215,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F24F5F92591A88400610FE8 /* TransparentCell.swift in Sources */,
 				1F06D226258E6A0C00741634 /* ViewController.swift in Sources */,
 				1F06D222258E6A0C00741634 /* AppDelegate.swift in Sources */,
+				1F20A574258EA3C700DFA627 /* BaseReusableView.swift in Sources */,
 				1F06D224258E6A0C00741634 /* SceneDelegate.swift in Sources */,
+				1F2B39CD258FFAC50010391F /* BurgerTableCell.swift in Sources */,
+				1F2B39C8258FFA180010391F /* BurgerTableController.swift in Sources */,
+				1F27A91025918DCC003C9F37 /* BurgerTableHeader.swift in Sources */,
+				1F20A577258EA40900DFA627 /* MenuToggleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +371,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KN8K9A66;
 				INFOPLIST_FILE = BurgerMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +390,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 84KN8K9A66;
 				INFOPLIST_FILE = BurgerMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
